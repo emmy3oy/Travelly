@@ -1,0 +1,137 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Nav*/
+.Navbar{
+  margin: auto;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  background:rgba(19, 28, 39, 0.8); 
+  color: white;
+  position: sticky;
+  }
+.brand > .nav-link {
+    color: white;
+    position: sticky;
+  }
+.Navbar>.logo{
+    flex: 0.4 1 20rem;
+    font-size: 3rem;
+    padding: 2rem 5rem;
+    color: white;
+  }
+.brand {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 20rem;
+  }
+
+  /* FOOTER SECTION CSS */
+  footer{
+    color: white;
+    background: rgba(19, 28, 39, 0.8);
+}
+.footer-wrapper{
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+}
+.footer-wrapper h2{
+  font-family: 'Montserrat', sans-serif;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .me-auto Nav.Link{
+  display: flex;
+  flex: 1 1 40rem;
+ 
+} */
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Nav*/
+.Navbar{
+  margin: auto;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  background:rgba(19, 28, 39, 0.8); 
+  color: white;
+  position: sticky;
+  }
+.brand > .nav-link {
+    color: white;
+    position: sticky;
+  }
+.Navbar>.logo{
+    flex: 0.4 1 20rem;
+    font-size: 3rem;
+    padding: 2rem 5rem;
+    color: white;
+  }
+.brand {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 20rem;
+  }
+
+  /* FOOTER SECTION CSS */
+  footer{
+    color: white;
+    background: rgba(19, 28, 39, 0.8);
+}
+.footer-wrapper{
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .me-auto Nav.Link{
+  display: flex;
+  flex: 1 1 40rem;
+ 
+} */
